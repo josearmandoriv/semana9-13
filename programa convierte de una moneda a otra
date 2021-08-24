@@ -1,0 +1,12 @@
+#include <stdio.h>
+ int main(void){
+ 	int usd,pesos; 
+ 	printf("conversion de dolares a pesos \n");
+ 	
+ 	printf("indica el valor en dolares: \n");
+ 	scanf("%d", &usd);
+ 	pesos=20.33*usd;
+ 	printf("los pesos equivalentes son: %d",pesos);
+ 	return 0; 
+ 	
+ }
