@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+ 
+int main()
+{
+    const double Pi = 3.141593;
+    double D, H, R, V;
+    printf("  **  Calculadora de volumen de ciindros  **\n\n");
+    printf ("  Introduzca el radio, en centimetros: ");
+    scanf (" %lf", &R);
+    printf ("\n  Introduzca la altura, en centimetros: ");
+    scanf (" %lf", &H);
+    V = Pi * pow(R, 2) * H;
+    printf ("\n\n  El volumen del cilindro es: %lf", V);
+    return 0;
+}	
