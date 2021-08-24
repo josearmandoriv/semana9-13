@@ -1,0 +1,12 @@
+#include <stdio.h>
+ int main(void){
+ 	int m,in;
+ 	printf("convercion de metros a pulgadas \n"); 
+ 	
+ 	
+ 	printf("indica la cantidad de metros: \n");
+ 	scanf("%d", &m); 
+ 	in=m*39.37;
+ 	printf("las pulgadas equivalentes son: %d",	in);
+ 	return 0; 
+ }
