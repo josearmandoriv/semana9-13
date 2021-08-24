@@ -1,0 +1,15 @@
+#include <stdio.h>
+ int main(void){
+ 	int a,b,sum,dif;
+ 	printf("calculadora de suma y resta \n");
+ 	
+ 	printf("indica el valor del primer numero: \n");
+ 	scanf("%d", &a);
+ 	printf("indica el valor del segundo numero: \n");
+ 	scanf("%d", &b);
+ 	sum=a+b;
+ 	printf("la suma de los dos numeros es: %d \n", sum);
+ 	dif=a-b;
+ 	printf("la resta de los dos numeros es: %d", dif); 
+ 	return 0; 
+}
